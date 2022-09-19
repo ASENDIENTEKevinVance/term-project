@@ -12,7 +12,7 @@
         <ul>
             <li><a href="#Home">Home</a></li>
             <li><a href="#Menu">Menu</a></li>
-            <li><a href="">Reservation</a></li>
+            <li><a href="#Reservation">Reservation</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Contact us</a></li>
         </ul>
@@ -95,6 +95,41 @@
         <h4>Fresh Coffee Beans</h4>
         <a href="images/atf-image.jpg" target="_blank">Read More</a>
     </div>
+    <div id="Reservation">
+        <h3>Reservation Form</h3>
+        <hr>
+        <form action="#">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Last Name, First Name">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="mail@gmail.com">
+            <label for="phone nukber">Phone Number</label>
+            <input type="number" id="phone number" placeholder="(Area Code) 1234567890">
+            <label for="reservation details">Reservation Details</label>
+            <select name="person" id="person">
+                <option value="1 person">1 person table</option>
+            </select>
+            <label for="reservation date">Reservation Date</label>
+            <input type="date" name="date" id="date">
+            <input type="radio" name="date">
+            <label for="morning">Morning</label>
+            <input type="radio" name="date">
+            <label for="afternoon">Afternoon</label>
+            <label for="request">Additional Requests</label>
+            <textarea name="additional request" id="additional request" cols="30" rows="10"></textarea>
+            <p><b>Payment</b></p>
+            <p>Payment Accepted Cards</p>
+            <p>cards</p>
+            <label for="credit card name">Credit Card Name</label>
+            <input type="text" id="credit card name" placeholder="John Doe">
+            <label for="credit card number">Credit Card Number</label>
+            <input type="number" name="credit card number" id="credit card number" placeholder="1234567890">
+            <input type="checkbox" name="i agree" id="i agree" value="i agree">
+            <label for="i agree">I agree Lorem ipsum dolor sit amet.</label>
+            <button>Send</button>
+        </form>
+    </div>
+
    
 </body>
 </html>
