@@ -533,3 +533,142 @@ body {
     padding-bottom: 1.5%;
 }
 
+/* Bottom Area */
+
+.bottom {
+    width: 100%;
+    height: 275px;
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+}
+
+.bottom h2 {
+    font-size: medium;
+    color: white;
+}
+
+.bottom h3 {
+    color: white;
+}
+
+.bottom h4 {
+    color: white;
+}
+
+.bottom p {
+    color: white;
+}
+
+.bottom a {
+    color: #c7a17a;
+    text-decoration: none;
+}
+
+.opening {
+    float: left;
+    width: 21.5%;
+    margin-left: 7%;
+    padding-top: 2%;
+    line-height: normal;
+    color: white;
+}
+
+.opening h2 {
+    text-transform: uppercase;
+}
+
+.opening th {
+    text-align: center;
+    color: white;
+}
+
+.opening td,
+.opening tbody {
+    color: white;
+}
+
+.latest {
+    float: left;
+    padding-top: 2%;
+    width: 21.5%;
+    margin: auto;
+    color: white;
+}
+
+.latest h2 {
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+.latest h4 {
+    text-transform: uppercase;
+}
+
+.latest p {
+    color: #c7a17a;
+}
+
+.contact {
+    float: left;
+    padding-top: 2%;
+    width: 21.5%;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.contact a, 
+.contact p {
+    font-weight: bold;
+}
+
+.contact h3 {
+    padding-bottom: -50%;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+.contact form {
+    padding-top: -10%;
+}
+
+.standard input {
+    height: 30px;
+}
+
+.standard button {
+    height: 30px;
+    width: 45px;
+    font-size: 10px;
+    background-color: #c7a17a;
+    border: none;
+}
+
+.location {
+    float: right;
+    padding-top: 2%;
+    width: 21.5%;
+    margin-right: 7%;
+}
+
+.location h2 {
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.location h3 {
+    color: #c7a17a;
+    padding-top: 5%;
+}
+
+.location p {
+    font-weight: bold;
+}
