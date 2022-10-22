@@ -672,3 +672,68 @@ body {
 .location p {
     font-weight: bold;
 }
+
+/* Footer Area */
+
+.footer {
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.footer-content {
+    width: 85%;
+    padding-top: 2%;
+}
+
+/* Blog Area */
+
+.blog {
+    width: 28.33%;
+    background-position: center;
+    margin-left: 7%;
+    margin-right: auto;
+    float: left;
+}
+
+.blog h1 {
+    color: white;
+    font-size: large;
+}
+
+/* Socials Area */
+
+.socials {
+    width: 40%;
+    float: left;
+    padding-left: 13%;
+}
+
+.socials ul {
+    color: white;
+}
+
+.socials li {
+    display: inline-block;
+    text-decoration: underline;
+    color: white;
+}
+
+.socials a {
+    color: white;
+    font-weight: normal;
+    font-size: small;
+}
+
+/* Copyright Area */
+
+.copyright {
+    float: right;
+    font-size: small;
+}
+
+.copyright p {
+    color: white;
+}
