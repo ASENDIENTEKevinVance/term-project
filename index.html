@@ -224,41 +224,62 @@
         </div>
     </div>
 
+    <!-- Reservation Area -->
 
-    <div id="Reservation">
-        <h2>Reservation Form</h2>
-        <hr>
-        <form action="#">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="Last Name, First Name">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="mail@gmail.com">
-            <label for="phone nukber">Phone Number</label>
-            <input type="number" id="phone number" placeholder="(Area Code) 1234567890">
-            <label for="reservation details">Reservation Details</label>
-            <select name="person" id="person">
-                <option value="1 person">1 person table</option>
-            </select>
-            <label for="reservation date">Reservation Date</label>
-            <input type="date" name="date" id="date">
-            <input type="radio" name="date">
-            <label for="morning">Morning</label>
-            <input type="radio" name="date">
-            <label for="afternoon">Afternoon</label>
-            <label for="request">Additional Requests</label>
-            <textarea name="additional request" id="additional request" cols="30" rows="10"></textarea>
-            <h3>Payment</h3>
-            <p>Payment Accepted Cards</p>
-            <label for="cards">cards</label><br>
-            <label for="credit card name">Credit Card Name</label>
-            <input type="text" id="credit card name" placeholder="John Doe">
-            <label for="credit card number">Credit Card Number</label>
-            <input type="number" name="credit card number" id="credit card number" placeholder="1234567890">
-            <input type="checkbox" name="i agree" id="i agree" value="i agree">
-            <label for="i agree">I agree Lorem ipsum dolor sit amet.</label>
-            <button>Send</button>
-        </form>
+    <div class="reservation">
+        <div class="reservation-area">
+            <h2>Reservation Form</h2>
+            <hr>
+        </div>
+        <div class="reservation-box">
+                <div class="res-box1">
+                    <form action="#">
+                        <div class="res-text">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Last Name, First Name">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="mail@gmail.com">
+                            <label for="phone nukber">Phone Number</label>
+                            <input type="number" id="phone number" placeholder="(Area Code) 1234567890">
+                            <label for="reservation details">Reservation Details</label>
+                            <select name="person" id="person">
+                            <option value="1 person">1 person table</option>
+                            </select>
+                            <label for="reservation date">Reservation Date</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="morning">
+                            <input type="radio" name="date">
+                            <label for="morning">Morning</label>
+                            <input type="radio" name="date">
+                            <label for="afternoon">Afternoon</label> 
+                        </div>
+                    </form>
+                </div>
+                <div class="res-box2">
+                    <form action="#">
+                        <label for="request">Additional Requests</label>
+                        <textarea name="additional request" id="additional request" cols="50" rows="10"></textarea>
+                        <div class="payment">
+                            <h3>Payment</h3>
+                            <p >Payment Accepted Cards
+                            <br>cards
+                            </p>
+                        </div>
+                            <label for="credit card name">Credit Card Name</label>
+                            <input type="text" id="credit card name" placeholder="John Doe">
+                            <label for="credit card number">Credit Card Number</label>
+                            <input type="number" name="credit card number" id="credit card number" placeholder="1234567890">
+                        <div class="agree">
+                            <input type="checkbox" name="i agree" id="i agree" value="i agree">
+                            <label for="i agree">I agree Lorem ipsum dolor sit amet.</label>
+                        </div>
+                            <button>Send</button>
+                    </form>  
+                </div>
+        </div>
     </div>
+    
     <div id="Opening Hours">
         <h3>Opening Hours</h3>
         <table>
