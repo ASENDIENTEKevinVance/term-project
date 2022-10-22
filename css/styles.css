@@ -66,3 +66,50 @@ body {
 .nav-area li {
     display: inline-block;
 }
+
+/* Banner Area */
+
+.banner {
+    height: 520px;
+    background-color: orange;
+    background-image: url(../images/atf-image.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+
+.banner-content {
+    width: 38%;
+    position: relative;
+    top: 20%;
+    left: 7.5%;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+.banner a {
+    padding: 15px 20px;
+    background-color: #312a26;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.banner span {
+    color: #4caf59;
+}
+
+.banner p {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: small;
+    font-weight: 500;
+}
+
