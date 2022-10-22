@@ -34,3 +34,35 @@ a:hover {
 body {
     width: 100%;
 }
+
+/* Navigation Area */
+
+.nav-area {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-area h1 {
+    width: 50%;
+    float: left;
+    font-size: 25px;
+}
+
+.nav-area ul {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-top: 8px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.nav-area a {
+    text-decoration: none;
+}
+
+.nav-area li {
+    display: inline-block;
+}
