@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: #312a26;
+}
+
+/* All Heading Tags*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p,
+label,
+span,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    color: #c7a17a;
+}
+
+body {
+    width: 100%;
+}
