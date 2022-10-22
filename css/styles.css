@@ -284,3 +284,33 @@ body {
     margin-top: 15px;
 }
 
+/* 2nd Merchandise Area */
+
+.merchandise-sale {
+    text-align: center;
+    overflow: auto;
+}
+
+.merchandise-sale p {
+    text-transform: capitalize;
+    color: #c7a17a;
+    font-style: oblique;
+}
+
+.merchandise-sale h2 {
+    text-transform: uppercase;
+    color:#312a26;
+    font-size: 38px;
+    padding-top: 8px;
+}
+
+.merchandise-sale hr {
+    color: #c7a17a;
+    width: 10%;
+    border-top: solid 3.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 3%;
+}
